@@ -1,0 +1,59 @@
+.header {
+	background-color: $main-color;
+	border-top: 6px solid $second-color;
+	min-height: 472px;
+
+
+	&__logo {
+		margin-top: 18px;
+		margin-left: 20px;
+	}
+
+	&__menu-button {
+		width: 50px;
+		height: 50px;
+		background: transparent;
+		border: 2px solid white;
+		border-radius: 50%;
+		padding: 0;
+		margin-top: 30px;
+		margin-right: 30px;
+		outline: none;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		transition: all 0.3s;
+
+		svg {
+			width: 20px;
+			line {
+				stroke: #fff;
+				stroke-width: 3px;
+			}
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	&__hello, &__hello-paragraph {
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 90px;
+		margin: 0;
+	}
+
+	&__hello {
+		margin-top: 62px;
+	}
+
+	&__hello-paragraph {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 5px;
+	}
+}

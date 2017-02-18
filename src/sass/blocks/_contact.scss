@@ -1,0 +1,17 @@
+.contact {
+	padding-top: 50px;
+	background-color: $third-color;
+
+	&__logo {
+		margin-top: 18px;
+		margin-left: 20px;
+	}
+
+	&__image {
+		margin: 0 auto;
+		width: 50px;
+		margin-right: 10px;
+		float: left;
+	}
+
+}
