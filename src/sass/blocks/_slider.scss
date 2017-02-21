@@ -1,0 +1,17 @@
+.slider {
+	background-color: $second-color;
+	text-align: center;
+
+	&__text {
+		color: white;
+		padding: 40px;
+		font-size: 18px;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	&__image {
+		padding-bottom: 40px;
+	}
+
+}

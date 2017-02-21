@@ -1,0 +1,50 @@
+.contact {
+	padding-top: 50px;
+	background-color: $third-color;
+	padding-left: 80px;
+
+	.row{
+		margin: 0 auto;
+		margin-right: 30px;
+	}
+
+	&__wrapper {
+		width: 100%;
+		float: left;
+		margin-left: 15px;
+	}
+
+	&__logo {
+		margin-top: 18px;
+		margin-left: 20px;
+	}
+
+	&__image {
+		margin: 0 auto;
+		width: 50px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	&__description {
+		max-width: 500px;
+	}
+
+	&__post-title {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.social {
+		display: inline;
+		list-style-type: none;
+		vertical-align: middle;
+
+		&__item {
+			float: left;
+			margin: 5px;
+		}
+	}
+
+
+}

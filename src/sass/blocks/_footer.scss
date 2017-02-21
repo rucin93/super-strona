@@ -1,0 +1,31 @@
+.footer {
+	background-color: $main-color;
+	min-height: 50px;
+	margin: 0 auto;
+	padding: 0;
+
+	&__terms {
+		float: left;
+		color: #fff;
+		padding: 0;
+		margin: 0px auto;
+		margin-left: 180px;
+		margin-top: 15px;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #fff;
+		margin: 10px 10px;
+	}
+
+	&__copyrights {
+		color: #fff;
+		padding: 0;
+		margin: 0 auto;
+		margin-right: 180px;
+		margin-top: 15px;
+		display: flex;
+		float: right;
+	}
+}
